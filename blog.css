@@ -154,7 +154,7 @@ font-family: 'Fira Sans Condensed', sans-serif;
 
 
 .avatar_small {
-  border-radius: 15%;
+  border-radius: 50%;
   width: 28px;
   height: 28px;
 }
@@ -184,3 +184,40 @@ font-family: 'Fira Sans Condensed', sans-serif;
   border-radius: 5%;
 }
 
+ @media screen and (max-width: 560px) {
+        .blog-header-logo {
+          font-size: 1.5rem;
+        }
+        .logotip-bolshoy {
+          display: none;
+        }
+        .rating {
+          padding-top: 1.5rem;
+          display: flex;
+          
+        }
+
+        .rating-inside {
+         display: flex;
+        
+                  }
+.rating-count {
+  margin-right: 1rem !important;
+}
+        .rating-count-style-arrows {
+          margin-top: .4rem !important;
+        }
+.rating-count-style {
+  margin-top: .4rem !important;
+}
+
+      }
+
+@media (min-width: 768px) {
+.logotip {
+  display: none;
+}
+.rating {
+  display: inline;
+}
+      }
