@@ -180,8 +180,8 @@ font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .comment {
-  background-color: #f9f9f9;
-  border-radius: 5%;
+  background-color: #f7f7f7;
+  border-radius: 2rem;
 }
 
  @media screen and (max-width: 560px) {
@@ -211,7 +211,13 @@ font-family: 'Fira Sans Condensed', sans-serif;
   margin-top: .4rem !important;
 }
 
-      }
+.svg_rating_icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+}
+
+     
 
 @media (min-width: 768px) {
 .logotip {
@@ -220,4 +226,16 @@ font-family: 'Fira Sans Condensed', sans-serif;
 .rating {
   display: inline;
 }
+
       }
+
+.enter-button {
+      border-radius: .25rem !important;
+}
+
+
+
+.comment-time {
+  margin-bottom: 1.25rem;
+  color: #888;
+}
