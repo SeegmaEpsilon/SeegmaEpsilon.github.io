@@ -42,7 +42,7 @@
 
 <header class="blog-header py-3">
 
-          <div class="text-center logotip pb-4">
+         <div class="text-center logotip pb-4">
         <a class="blog-header-logo text-dark" href="#">Stepunk & Alexandr Technologies</a>
       </div>
 
@@ -54,10 +54,39 @@
 
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="text-muted" href="#" aria-label="Search">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Найти</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
         </a>
-        <a class="btn btn-outline-secondary" href="#">Войти</a>
-        <a class="ml-2 btn btn-info" href="#">Регистрация</a>
+
+        <button type="button" class="btn btn-outline-secondary enter-button" data-toggle="modal" data-target="#exampleModal">Войти</button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Авторизация</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+          <div class="modal-body">
+            <div class="form-group">
+            <label for="exampleInputEmail1">Логин</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Логин">
+            <small id="emailHelp" class="form-text text-muted">Мы никому не отправляем ваши данные.</small>
+            </div>
+          <div class="form-group pt-3">
+          <label for="exampleInputPassword1">Пароль</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+          </div>
+          </div>
+<div class="modal-footer justify-content-between">
+<button type="button" class="btn btn-info">Войти</button>
+</div>
+      </div>
+    </div>
+  </div>
+
+        
+        <a class="ml-2 btn btn-info" href="registration_page.html">Регистрация</a>
       </div>
     </div>
   </header>
@@ -178,7 +207,7 @@
     <div class="comment_head d-flex">
       <a href="user_id" class='users_avatar_and_name pt-2'>
         <div>
-          <img src="https://sun3.dataix-kz-akkol.userapi.com/c857432/v857432695/5214b/ZSPWg-NNLAs.jpg" class="ml-1 avatar_small" alt="Responsive image">
+          <img src="https://sun9-54.userapi.com/Z3hvzxd0EAYjk5PthM7vULhNAb91PN3YxkxKFA/jPnpLOj59ec.jpg" class="ml-1 avatar_small" alt="Responsive image">
         </div> </a>
 <div>
 
@@ -296,9 +325,9 @@
 
 
 <footer class="blog-footer">
-  <p>Мазафака бич</p>
+  <p>Политех текнолоджи</p>
   <p>
-    <a href="#">Back to top</a>
+    <a href="#">Обратно наверх</a>
   </p>
 </footer>
 
