@@ -59,7 +59,37 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Найти</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
         </a>
 
-<div class="btn-group">
+
+<button type="button" class="btn btn-outline-secondary enter-button" data-toggle="modal" data-target="#exampleModal">Войти</button>
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Авторизация</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+					<div class="modal-body">
+						<div class="form-group">
+						<label for="exampleInputEmail1">Логин</label>
+						<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Логин">
+						<small id="emailHelp" class="form-text text-muted">Мы никому не отправляем ваши данные.</small>
+						</div>
+					<div class="form-group pt-3">
+					<label for="exampleInputPassword1">Пароль</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+					</div>
+					</div>
+<div class="modal-footer justify-content-between">
+<button type="button" class="btn btn-info">Войти</button>
+</div>
+			</div>
+		</div>
+	</div>
+
+
+<!--- <div class="btn-group">
   <button type="button" class="btn btn-outline-secondary enter-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Войти
   </button>
@@ -84,9 +114,12 @@
   <div class="dropdown-divider"></div>
   <a class="dropdown-item" href="#">Забыли пароль?</a>
 </div>
-</div>
+</div> --->
 
-        <a class="ml-2 btn btn-info" href="#">Регистрация</a>
+        <a class="ml-2 btn btn-info" href="registration_page.html">Регистрация</a>
+
+
+
       </div>
     </div>
   </header>
@@ -271,9 +304,9 @@
 
 
 <footer class="blog-footer">
-  <p>Мазафака бич</p>
+  <p>Политех текнолоджи</p>
   <p>
-    <a href="#">Back to top</a>
+    <a href="#">Обратно наверх</a>
   </p>
 </footer>
 
